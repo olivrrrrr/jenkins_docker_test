@@ -10,10 +10,7 @@ node {
     }
 
     stage('Build') {
-
-			steps {
-				sh 'docker build -t oliverxekwalla/Node_pipeline:latest .'
-			}
+			sh 'docker build -t oliverxekwalla/node-test:latest .'
 		}
 
 }
