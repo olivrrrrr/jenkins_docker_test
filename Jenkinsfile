@@ -1,7 +1,10 @@
 node {
+    
 
     stage("Git Clone"){
 
-        git 'https://github.com/rahulwagh/spring-boot-docker.git'
+        git 'https://github.com/olivrrrrr/jenkins_docker_test
     }
+
+
 }
