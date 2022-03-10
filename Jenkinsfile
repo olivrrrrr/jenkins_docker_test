@@ -1,8 +1,5 @@
 node {
     
-    environment {
-		DOCKERHUB_CREDENTIALS=credentials('dockerhub')
-	}
 
     stage('Git Clone'){
 
