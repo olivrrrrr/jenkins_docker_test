@@ -10,15 +10,15 @@ pipeline {
     // stage('Git Clone'){
     //    git branch: 'main', credentialsId: 'GITHUB_CREDENTIALS', url:"https://github.com/olivrrrrr/jenkins_docker_test"
     // }
-    agent any
+//     agent any
     
-    stages {
-            stage('Cloning our Git') {
-                steps {
-                git branch: 'main', credentialsId: 'GITHUB_CREDENTIALS', url:"https://github.com/olivrrrrr/jenkins_docker_test"
-                }
-            }
+//     stages {
+//             stage('Cloning our Git') {
+//                 steps {
+//                 git branch: 'main', credentialsId: 'GITHUB_CREDENTIALS', url:"https://github.com/olivrrrrr/jenkins_docker_test"
+//                 }
+//             }
 
-          }
+//           }
 
-}
+// }
