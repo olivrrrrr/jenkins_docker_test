@@ -1,4 +1,4 @@
-node {
+pipeline {
     
   environment {
     registry = "oliverxekwalla/docker_automation"
@@ -17,5 +17,7 @@ node {
                 git "https://github.com/olivrrrrr/jenkins_docker_test"
                 }
             }
+
+          }
 
 }
