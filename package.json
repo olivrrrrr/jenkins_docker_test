@@ -7,7 +7,8 @@
     "start": "cross-env NODE_ENV=production node index.js",
     "dev": "cross-env NODE_ENV=production node index.js",
     "devStart": "nodemon server.js",
-    "test": "cross-env NODE_ENV=test jest --verbose --runInBand"
+    "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
+    "sonar": "node sonar-project.js"
   },
   "jest": {
     "testEnvironment": "node"
@@ -25,6 +26,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.1.8",
     "sonar-scanner": "^3.1.0",
+    "sonarqube-scanner": "^2.8.1",
     "supertest": "^6.2.2"
   },
   "devDependencies": {
