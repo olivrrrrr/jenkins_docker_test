@@ -3,7 +3,7 @@ const sonarqubeScanner = require('sonarqube-scanner');
        serverUrl: 'http://localhost:9000',
        options : {
        'sonar.sources': '.',
-       'sonar.inclusions' : './cotrollers/blogs.js' // Entry point of your code
+       'sonar.inclusions' : 'controllers/blogs.js' // Entry point of your code
        }
      }, () => {});
  
