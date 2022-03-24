@@ -70,7 +70,7 @@ describe("returns total likes", () => {
 
     const result = listHelper.totalLikes(blogs);
 
-    expect(result).toBe(36);
+    expect(result).toBe(3);
   });
 });
 
