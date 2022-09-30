@@ -13,6 +13,12 @@ pipeline {
                 git branch: 'main', credentialsId:'GITHUB_CREDENTIALS', url:"https://github.com/olivrrrrr/jenkins_docker_test"
                 }
             }
+        
+            stage('Test') {
+                  steps {
+                    sh 'node test'
+                  }
+            }
 
             stage('Building Docker Image') {
                 steps {
