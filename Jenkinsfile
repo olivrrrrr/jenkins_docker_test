@@ -8,7 +8,7 @@ pipeline {
 
     agent any
     
-    tools {nodejs "node"}
+//     tools {nodejs "node"}
     
     
     
@@ -20,18 +20,18 @@ pipeline {
                 }
             }
         
-            stage('Install dependencies') {
-                steps {
-                     sh 'npm install'
-                    }
-                }
+//             stage('Install dependencies') {
+//                 steps {
+//                      sh 'npm install'
+//                     }
+//                 }
         
             
-            stage('Test') {
-                  steps {
-                    sh 'npm test -- tests/blog_api.test.js'
-                  }
-            }
+//             stage('Test') {
+//                   steps {
+//                     sh 'npm test -- tests/blog_api.test.js'
+//                   }
+//             }
 
             stage('Building Docker Image') {
                 steps {
