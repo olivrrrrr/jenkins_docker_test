@@ -14,6 +14,13 @@ pipeline {
                 }
             }
         
+            stage('Install dependencies') {
+                steps {
+                     sh 'npm install'
+                    }
+                }
+        
+            
             stage('Test') {
                   steps {
                     sh 'npm test -- tests/blog_api.test.js'
