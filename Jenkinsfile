@@ -1,7 +1,7 @@
 
 pipeline {
     environment {
-    registry = "oliverxekwalla/app"
+    registry = "oliverxekwalla/app1"
     registryCredential = "DOCKERHUB_CREDENTIALS"
     dockerImage = ''
     }
